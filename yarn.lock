@@ -1613,6 +1613,11 @@
   dependencies:
     lit-html "^1.4.1"
 
+"@mantou/nes@^1.0.3":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@mantou/nes/-/nes-1.0.14.tgz#94487b186fe25629c59a0ef1407a040f0f266812"
+  integrity sha512-OFc/R2zO96g2dlVlT9CKyC/H2J4tXgw92ULgx3pgqCfBsQjvRxOUbEJ/m0E4XkHuANMOI5/y+nQDGZkmQL/PMg==
+
 "@n1ru4l/graphql-live-query@^0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@n1ru4l/graphql-live-query/-/graphql-live-query-0.9.0.tgz#defaebdd31f625bee49e6745934f36312532b2bc"
@@ -4795,9 +4800,9 @@ graphql-ws@^5.4.1:
   integrity sha512-hYo8kTGzxePFJtMGC7Y4cbypwifMphIJJ7n4TDcVUAfviRwQBnmZAbfZlC+XFwWDUaR7raEDQPxWctpccmE0JQ==
 
 graphql@^16.2.0:
-  version "16.5.0"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.5.0.tgz#41b5c1182eaac7f3d47164fb247f61e4dfb69c85"
-  integrity sha512-qbHgh8Ix+j/qY+a/ZcJnFQ+j8ezakqPiHwPiZhV/3PgGlgf96QMBB5/f2rkiC9sgLoy/xvT6TSiaf2nTHJh5iA==
+  version "16.8.1"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.8.1.tgz#1930a965bef1170603702acdb68aedd3f3cf6f07"
+  integrity sha512-59LZHPdGZVh695Ud9lRzPBVTtlX9ZCV150Er2W43ro37wVof0ctenSaskPPjN7lVTIN8mSZt8PHUNKZuNQUuxw==
 
 handlebars@^4.7.7:
   version "4.7.7"
