@@ -524,6 +524,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fastify/busboy@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.0.0.tgz#f22824caff3ae506b18207bad4126dbc6ccdb6b8"
+  integrity sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==
+
 "@gar/promisify@^1.0.1":
   version "1.1.2"
   resolved "https://registry.npmjs.org/@gar/promisify/-/promisify-1.1.2.tgz"
@@ -1612,6 +1617,11 @@
   integrity sha512-CxgojVXDNWVbeG7kfJl1KekOVFRQcPqEtHnT3bB4SRJhAdKoDGpr5RhheWzeJYbzxnsTV3iH4tomh8eBjN0vhg==
   dependencies:
     lit-html "^1.4.1"
+
+"@mantou/nes@^1.0.3":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@mantou/nes/-/nes-1.0.14.tgz#94487b186fe25629c59a0ef1407a040f0f266812"
+  integrity sha512-OFc/R2zO96g2dlVlT9CKyC/H2J4tXgw92ULgx3pgqCfBsQjvRxOUbEJ/m0E4XkHuANMOI5/y+nQDGZkmQL/PMg==
 
 "@n1ru4l/graphql-live-query@^0.9.0":
   version "0.9.0"
@@ -8766,9 +8776,11 @@ unc-path-regex@^0.1.2:
   integrity sha1-5z3T17DXxe2G+6xrCufYxqadUPo=
 
 undici@^5.1.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-5.2.0.tgz#18c5bd59f8f1b1ed8dcc9dca2f754c44ec994059"
-  integrity sha512-XY6+NS3WH9b3TKOHeNz2CjR+qrVz/k4fO9g3etPpLozRvULoQmZ1+dk9JbIz40ehn27xzFk4jYVU2MU3Nle62A==
+  version "5.26.3"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.26.3.tgz#ab3527b3d5bb25b12f898dfd22165d472dd71b79"
+  integrity sha512-H7n2zmKEWgOllKkIUkLvFmsJQj062lSm3uA4EYApG8gLuiOM0/go9bIoC3HVaSnfg4xunowDE2i9p8drkXuvDw==
+  dependencies:
+    "@fastify/busboy" "^2.0.0"
 
 unique-filename@^1.1.1:
   version "1.1.1"
